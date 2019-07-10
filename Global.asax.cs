@@ -12,8 +12,9 @@ namespace Banyan.Api
 	i=0;
 	i=0;
 	if(i==0)
-	{
+		{
 	}
+	var g = new Guid();
         private readonly BanyanApiAppHost _appHost;
 
         public Global()
