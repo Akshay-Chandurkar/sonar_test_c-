@@ -2,19 +2,20 @@
 using Banyan.Business.Products.Interfaces;
 using FluentScheduler;
 
-int i;
+ 
 
 namespace Banyan.Api
 {
 	public class Global : System.Web.HttpApplication
     {
+    	int i=0;
         private readonly BanyanApiAppHost _appHost;
 
         public Global()
         {
             _appHost = new BanyanApiAppHost;
         }
-
+ 
         protected void Application_Start(object sender, EventArgs e)
         {
             _appHost.Init();
