@@ -34,5 +34,6 @@ namespace Banyan.Api
         {
             _appHost.Dispose();
         }
+	}
     }
 }
