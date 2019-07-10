@@ -11,7 +11,7 @@ namespace Banyan.Api
 
         public Global()
         {
-            _appHost = new BanyanApiAppHost();
+            _appHost = new BanyanApiAppHost;
         }
 
         protected void Application_Start(object sender, EventArgs e)
