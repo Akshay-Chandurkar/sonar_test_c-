@@ -2,6 +2,7 @@
 using Banyan.Business.Products.Interfaces;
 using FluentScheduler;
 
+int i;
 
 namespace Banyan.Api
 {
