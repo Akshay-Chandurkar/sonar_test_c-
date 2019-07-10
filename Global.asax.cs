@@ -9,6 +9,11 @@ namespace Banyan.Api
 	public class Global : System.Web.HttpApplication
     {
     	int i=0;
+	i=0;
+	i=0;
+	if(i==0)
+	{
+	}
         private readonly BanyanApiAppHost _appHost;
 
         public Global()
